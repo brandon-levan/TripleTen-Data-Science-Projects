@@ -6,7 +6,7 @@
 ## What Can be Found in This Repository
 This repository will host all of my projects that I completed at the end of each sprint. Below, you will find a table of contents that contains a link to each project along with a brief description of the project and skills used to complete the project. Each project demonstrates my ability to apply various methods of exploratory data analysis, data visualization, and machine learning to different complex problems across the various sprints. 
 
-## Table of Contents for Repository
+## Table of Contents for The TripleTen Data Science Projects Repository
 | Sprint Number                                                                                                                                  | Project Name                           | Project Description | Skills Demonstrated + Libraries |
 |------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|---------------------|---------------------------------|
 | [17](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/tree/main/Sprint%2017%20-%20Final%20Project)                             | Final Project                          |                     |                                 |
