@@ -8,7 +8,7 @@ In this project, you will work with data from the entertainment industry. You wi
 
 The aim of this project is to investigate how the number of votes a title receives impacts its ratings. The assumption is that highly-rated shows (we will focus on TV shows, ignoring movies) released during the "Golden Age" of television also have the most votes.
   
-### Steps to Complete Project
+## Steps to Complete Project
 - Explore data, clean data (find duplicates, fill missing values, convert datatypes, find outliers), perform analysis, conclusions
 
 ## Data Description
@@ -17,15 +17,15 @@ The table contains nine columns. The majority store the same data type: object. 
 
 According to the documentation:
 
- - 'name' — actor/director's name and last name
- - 'Character' — character played (for actors)
- - 'r0le ' — the person's contribution to the title (it can be in the capacity of either actor or director)
- - 'TITLE ' — title of the movie (show)
- - '  Type' — show or movie
- - 'release Year' — year when movie (show) was released
- - 'genres' — list of genres under which the movie (show) falls
- - 'imdb sc0re' — score on IMDb
- - 'imdb v0tes' — votes on IMDb
+ - `name` — actor/director's name and last name
+ - `Character` — character played (for actors)
+ - `r0le` — the person's contribution to the title (it can be in the capacity of either actor or director)
+ - `TITLE` — title of the movie (show)
+ - `Type` — show or movie
+ - `release Year` — year when movie (show) was released
+ - `genres` — list of genres under which the movie (show) falls
+ - `imdb sc0re` — score on IMDb
+ - `imdb v0tes` — votes on IMDb
   
 ## Results/Findings
 
