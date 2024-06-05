@@ -8,9 +8,6 @@ In this project, you will work with data from the entertainment industry. You wi
 
 The aim of this project is to investigate how the number of votes a title receives impacts its ratings. The assumption is that highly-rated shows (we will focus on TV shows, ignoring movies) released during the "Golden Age" of television also have the most votes.
   
-## Steps to Complete Project
-- Explore data, clean data (find duplicates, fill missing values, convert datatypes, find outliers), perform analysis, conclusions
-
 ## Data Description
 
 The table contains nine columns. The majority store the same data type: object. The only exceptions are 'release Year' (int64 type), 'imdb sc0re' (float64 type) and 'imdb v0tes' (float64 type). Scores and votes will be used in our analysis, so it's important to verify that they are present in the dataframe in the appropriate numeric format. Three columns ('TITLE', 'imdb sc0re' and 'imdb v0tes') have missing values.
@@ -26,6 +23,9 @@ According to the documentation:
  - `genres` — list of genres under which the movie (show) falls
  - `imdb sc0re` — score on IMDb
  - `imdb v0tes` — votes on IMDb
+
+## Steps to Complete Project
+- Explore data, clean data (find duplicates, fill missing values, convert datatypes, find outliers), perform analysis, conclusions
   
 ## Results/Findings
 
