@@ -9,16 +9,16 @@
 - Learn to formulate and test hypotheses
  
 ## Problem Statement & Task
-Instacart is a grocery delivery platform where customers can place a grocery order and have it delivered to them, similar to how Uber Eats and Door Dash work. In this project, I will be working with a dataset that was publicly released by Instacart in a 2017 for a Kaggle competition.
+As an analyst for the telecom operator Megaline, I will be doing an analysis for the commerical department on which pre-paid plan (Surf or Ultimate) brings in more revenue for Megaline so that they can adjust the advertising budget accordingly.
 
-The goal of this project is to clean up the data and prepare a report that gives insight into the shopping habits of Instacart customers.
+The average revenue from users of Ultimate and Surf calling plans differs. The average revenue from users in NY-NJ area is different from that of the users from other regions. Decide what alpha value and explain the hypotheses and the results of the statistical tests run on the data set.
 
 ## Libraries Used
  - `pandas`, `numpy`, `matplotlib`, `scipy`
 
 ## Data Description
 
-There are five tables in the enitre Instantcart dataset. These tables provide information on what a user orders, when they order, and what products are in the users orders.
+I will be conducting this analysis using a sample of 500 Megaline clients from 2018. The data set I will be working with contains information such as who the clients are, where they're from, which plan they use, and the number of calls they made and text messages they sent.
 
 ## Steps to Complete Project
 - Step 1: Read in the data files and study the general information in those files
