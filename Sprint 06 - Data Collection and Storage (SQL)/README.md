@@ -9,39 +9,42 @@
 - Various methods for merging tables
  
 ## Problem Statement & Task
-As an analyst for the telecom operator Megaline, I will be doing an analysis for the commerical department on which pre-paid plan (Surf or Ultimate) brings in more revenue for Megaline so that they can adjust the advertising budget accordingly.
-
-The average revenue from users of Ultimate and Surf calling plans differs. The average revenue from users in NY-NJ area is different from that of the users from other regions. Decide what alpha value and explain the hypotheses and the results of the statistical tests run on the data set.
+As an analyst for Zuber, a new ride-sharing company that's launching in Chicago, my task is to find patterns in the available information. I want to understand passenger preferences and the impact of external factors on rides. Working with a database, I will analyze data from competitors and test a hypothesis about the impact of weather on ride frequency.
 
 ## Libraries Used
  - `pandas`, `numpy`, `matplotlib`, `scipy`
 
 ## Data Description
 
-I will be conducting this analysis using a sample of 500 Megaline clients from 2018. The data set I will be working with contains information such as who the clients are, where they're from, which plan they use, and the number of calls they made and text messages they sent.
+`/datasets/project_sql_result_01.csv`
+- `company_name` - taxi company name
+- `trips_amount` - the number of rides for each taxi company on November 15-16, 2017.
+
+`/datasets/project_sql_result_04.csv`
+- `dropoff_location_name` - Chicago neighborhoods where rides ended
+- `average_trips` - the average number of rides that ended in each neighborhood in November 2017.
+
+`/datasets/project_sql_result_07.csv` contains data on rides from the Loop to O'Hare International Airport.
+- `start_ts` - pickup date and time
+- `weather_conditions` - weather conditions at the moment the ride started
+- `duration_seconds` - ride duration in seconds
 
 ## Steps to Complete Project
-- Step 1: Read in the data files and study the general information in those files
-- Step 2: Preprocess the data by doing the following:
-  - Verify and fix data types
-  - Identify and fill in missing values
-  - Identify and remove duplicate values
-  - Find and eliminate errors in the data
-- Step 3: Aggregate User Level Metrics
-  - Generate metrics such as monthly calls made, minutes used per month, texts sent per month, and more.
-- Step 4: Describe the customers' behavior by analyzing the data
-  - After finding the minutes, texts, and volume of data the users of each plan require per month. Calculate the mean, variance, and standard deviation. Plot histograms. Describe the distributions.
-- Step 5: Test the hypotheses
-  A- The average revenue from users of Ultimate and Surf calling plans differs. The average revenue from users in NY-NJ area is different from that of the users from other regions. Decide what alpha value and explain the hypotheses and the results of the statistical tests run on the data set.
-- Step 6: Summarize Findings and Make a Conclusion
+1. Import the files
+2. Study the data they contain
+3. Make sure the data types are correct
+4. Identify the top 10 neighborhoods in terms of drop-offs
+5. Make graphs: taxi companies and number of rides, top 10 neighborhoods by number of dropoffs
+6. Draw conclusions based on each graph and explain the results
+6. Test the hypothesis
   
 ## Results & Findings
 
-1. Per month in 2018, we see that Ulitmate plan users spend more on average for their plans than surf plan users, however, surf plan users pay more in overages that ultimate plan users.
- - From the data, we can see these overages for surf plan users is largely attributed to GBs used for internet. Overages on internet for the surf plan cost 10 GB for every GB a user goes over the included amount of 15 GB. We don't see this for ultimate plan users. Looking at the box plot there are at least 25% of surf users that go over 15 GBs per month. This adds up fast.
-2. With a confidence interval of 95%,
-- We see that there is a difference in the average revenue for users in each plan.
-- However, we do not see a difference in the average revenue for users when comparing users in the NY/NJ and other regions of the United States
+As an analyst for Zuber, a new ride-sharing company that's launching in Chicago, my task was to find patterns in the available information. I wanted to understand passenger preferences and the impact of external factors on rides. Below are some insights from our competitors data that I derived -
+
+- **Insight 1** - Flash Cab had almost double the rides given on Nov 15 and 16, 2017. Flash Cab had 19,558 rides where as Taxi Affiliation Services had 11,422 trips.
+- **Insight 2** - The greatest number of rides ended in the Loop. The Loop, River North, Streeterville, and West Loop might be more populous neighborhoods compared to the other neighborhoods in Chicago that made it into the Top 10 dropoff locations.
+- **Insight 3** - There is a statistically signficant difference in the average ride duration from the Loop to O'Hare International Airport between rainy and non-rainy Saturdays.
 
 ## Examples of Visualizations Used in Project
 ![alt text](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/main/Sprint%2003%20-%20Statistical%20Data%20Analysis/Assets/gigs.png)
