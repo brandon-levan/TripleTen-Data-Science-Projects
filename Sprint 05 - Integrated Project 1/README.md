@@ -4,12 +4,10 @@
 - Everything I Learned From Sprint 1 Through Spring 4
  
 ## Problem Statement & Task
-As an analyst for the telecom operator Megaline, I will be doing an analysis for the commerical department on which pre-paid plan (Surf or Ultimate) brings in more revenue for Megaline so that they can adjust the advertising budget accordingly.
-
-The average revenue from users of Ultimate and Surf calling plans differs. The average revenue from users in NY-NJ area is different from that of the users from other regions. Decide what alpha value and explain the hypotheses and the results of the statistical tests run on the data set.
+I work for an online store called Ice, which sells video games all over the world. User and expert reviews, genres, platforms (e.g. Xbox or PlayStation), and historical data on game sales are available from open sources. In this project I will identify patterns that determine whether a game succeeds or not. This will allow me to spot potential big winners and plan advertising campaigns. I have data going back to 2016, and I'm planning a campaign for 2017.
 
 ## Libraries Used
- - `pandas`, `numpy`, `matplotlib`, `scipy`
+ - `pandas`, `numpy`, `matplotlib`, `scipy`, `seaborn`
 
 ## Data Description
 
@@ -23,15 +21,15 @@ I will be conducting this analysis using a sample of 500 Megaline clients from 2
   - Look at how many games were released in different years.
   - Look at how sales varied from platform to platform.
   - Look at platforms that used to be popular but now have zero sales
-- Many more...
+  - Many more...
 - Step 4. Create a user profile for each region by,
-- For each region (NA, EU, JP), determine:
-- The top five platforms. Describe variations in their market shares from region to region.
-- The top five genres. Explain the difference.
-- Do ESRB ratings affect sales in individual regions?
+  - For each region (NA, EU, JP), determine:
+  - The top five platforms. Describe variations in their market shares from region to region.
+  - The top five genres. Explain the difference.
+  - Do ESRB ratings affect sales in individual regions?
 - Step 5. Test the following hypotheses:
-- Average user ratings of the Xbox One and PC platforms are the same.
-- Average user ratings for the Action and Sports genres are different.
+  - Average user ratings of the Xbox One and PC platforms are the same.
+  - Average user ratings for the Action and Sports genres are different.
   
 ## Results & Findings
 
