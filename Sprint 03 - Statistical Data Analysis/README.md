@@ -37,12 +37,11 @@ There are five tables in the enitre Instantcart dataset. These tables provide in
   
 ## Results & Findings
 
-After checking for missing values and duplicates in the five tables in the Instantcart data set, I was able to uncover several insights in my exploratory data analysis. Here are a few findings -
-
-- **Insight 1:** The most popular time of the day to shop is 10 am
-- **Insight 2:** The most popular time of the week to shop is Monday
-- **Insight 3:** For those users that place multiple orders, on average people tend to wait 11.1 days until placing another order
-- **Insight 4:** On average users will purchase 10.1 items per order
+1. Per month in 2018, we see that Ulitmate plan users spend more on average for their plans than surf plan users, however, surf plan users pay more in overages that ultimate plan users.
+ - From the data, we can see these overages for surf plan users is largely attributed to GBs used for internet. Overages on internet for the surf plan cost 10 GB for every GB a user goes over the included amount of 15 GB. We don't see this for ultimate plan users. Looking at the box plot there are at least 25% of surf users that go over 15 GBs per month. This adds up fast.
+2. With a confidence interval of 95%,
+- We see that there is a difference in the average revenue for users in each plan.
+- However, we do not see a difference in the average revenue for users when comparing users in the NY/NJ and other regions of the United States
 
 ## Examples of Visualizations Used in Project
 ![alt text](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/main/Sprint%2003%20-%20Statistical%20Data%20Analysis/Assets/gigs.png)
