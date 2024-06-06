@@ -1,7 +1,7 @@
 # [Sprint 1 - Working With Data in Python](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/main/Sprint%2001%20-%20Working%20With%20Data%20in%20Python/Sprint_1_Project.ipynb)
 
-### Skills Used in Project
-- EDA | Pandas | Data Preprocessing (Finding Duplicates, Filling Missing Values, Outlier Detection) | Data Analysis
+### Skills Learned in Sprint
+- 
   
 ## Problem Statement & Task
 In this project, I worked with data from the entertainment industry. I studied a dataset with records on movies and shows. The research will focus on the "Golden Age" of television, which began in 1999 with the release of The Sopranos and is still ongoing.
