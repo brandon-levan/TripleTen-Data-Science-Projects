@@ -1,7 +1,14 @@
 # [Sprint 5 - Integrated Project 1](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/main/Sprint%2005%20-%20Integrated%20Project%201/Sprint_5_Project.ipynb)
 
-## Skills Learned Used in Project Sprint 
-- Everything I Learned From Sprint 1 Through Spring 4
+## Skills Used in This Project (Learned in Previous Sprints)
+- Perform four essential data-focused activities: retrieval, preprocessing, analysis, and presenting results
+- Perform advanced data processing and analysis techniques using the pandas library
+- Work with data and present results using Jupyter Notebook
+- Identify and process missing and duplicate data
+- Group data and combine data from different tables in various ways (merge and concatenation)
+- Draw conclusions about the data based on statistical metrics
+- Define distribution types and learn to calculate both normal and binomial distributions
+- Formulate and test hypotheses
  
 ## Problem Statement & Task
 I work for an online store called Ice, which sells video games all over the world. User and expert reviews, genres, platforms (e.g. Xbox or PlayStation), and historical data on game sales are available from open sources. In this project I will identify patterns that determine whether a game succeeds or not. This will allow me to spot potential big winners and plan advertising campaigns. I have data going back to 2016, and I'm planning a campaign for 2017.
@@ -22,7 +29,6 @@ I work for an online store called Ice, which sells video games all over the worl
 - `Critic_Score` - maximum of 100
 - `User_Score` - maximum of 10
 - `Rating (ESRB)` - The Entertainment Software Rating Board evaluates a game's content and assigns an age rating such as Teen or Mature.
-*Data for 2016 may be incomplete.*
 
 ## Steps to Complete Project
 - Step 1. Open the data file and study the general information
