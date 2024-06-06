@@ -1,6 +1,6 @@
 # [Sprint 3 - Statistical Data Analysis](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/main/Sprint%2003%20-%20Statistical%20Data%20Analysis/Sprint_3_Project.ipynb)
 
-### Skills Learned in Sprint 
+## Skills Learned in Sprint 
 - Learn to choose the optimal metrics for data description
 - Assess continuous and discrete variables using histograms of various types
 - Draw conclusions about the data based on statistical metrics
