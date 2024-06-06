@@ -1,12 +1,18 @@
-# TripleTen Sprint Four Project
+# [Sprint 4 - Software Development Tools (Streamlit)](https://software-development-tools-project-rbzd.onrender.com)
 
-## Project Description 
+### Skills Learned in Sprint 
+- Develop and deploy a web application to a cloud service so that it is accessible to the public
 
+
+## Problem Statement & Task
 Using a car advertisement dataset (vehicles_us.csv), this TripleTen project aims to provide additional practice on common software engineering tasks to develop and deploy a web application to a cloud service.  
 
 If you want to view my project, please access it using this link: [https://software-development-tools-project-rbzd.onrender.com](https://software-development-tools-project-rbzd.onrender.com)
 
 For this project, I've created a Streamlit application hosted on Render that allows users in interact with the car advertisement dataset to uncover insights about what car attributes can increase its value on the secondary market. For additional context, the car advertisement dataset contains information on used car sales such as price, model year, model, car condition, number of cylinders, fuel type, miles on the odometer, transmission type, car type, paint color, four wheel drive, date posted, and days listed. Using data visualization, this project aims to uncover insights about which attributes have a directional impact on price and allows for users to interact with the plots to uncover their own findings. 
+
+## Libraries Used
+ - `pandas`, `streamlit`, `plotly.express`, `altair`
 
 ## How Was This Web Application Developed
 
@@ -32,6 +38,8 @@ If you're interested in running this project locally on your own machine, please
 3. After running ```streamlit run app.py```, you should be able to access your local test deployment using the port [http://0.0.0.0:10000](http://0.0.0.0:10000).
      - If successful, if should see your streamlit displaying your app. However, if unsuccessful, you'll see a message that states a potential cause for an unsuccessful build. Fix the error, save, and run the command again. 
   
-## Conclusion 
+## Results & Findings
 Thank you for taking the time to view my project. I hope you found my web application engaging and my instructions and project overview to be clear and helpful!
 
+## Examples of Visualizations Used in Project
+![alt text](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/main/Sprint%2003%20-%20Statistical%20Data%20Analysis/Assets/gigs.png)
