@@ -12,7 +12,7 @@ In this project, I worked with data from the entertainment industry. I studied a
 
 The aim of this project was to investigate how the number of votes a title receives impacts its ratings. The assumption is that highly-rated shows (we will focus on TV shows, ignoring movies) released during the "Golden Age" of television also have the most votes.
 
-## Libraries Used in Project
+## Libraries Used
 - `pandas`
   
 ## Data Description
