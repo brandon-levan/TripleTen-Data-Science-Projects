@@ -11,17 +11,17 @@ I work for an online store called Ice, which sells video games all over the worl
 
 ## Data Description
 
-`Name` - Name of game
-`Platform` - Platform game was released on
-`Year_of_Release` - Year of game release
-`Genre` - Genre of game
-`NA_sales` - North American sales in USD million
-`EU_sales` - sales in Europe in USD million
-`JP_sales` - sales in Japan in USD million
-`Other_sales` - sales in other countries in USD million
-`Critic_Score` - maximum of 100
-`User_Score` - maximum of 10
-`Rating (ESRB)` - The Entertainment Software Rating Board evaluates a game's content and assigns an age rating such as Teen or Mature.
+- `Name` - Name of game
+- `Platform` - Platform game was released on
+- `Year_of_Release` - Year of game release
+- `Genre` - Genre of game
+- `NA_sales` - North American sales in USD million
+- `EU_sales` - sales in Europe in USD million
+- `JP_sales` - sales in Japan in USD million
+- `Other_sales` - sales in other countries in USD million
+- `Critic_Score` - maximum of 100
+- `User_Score` - maximum of 10
+- `Rating (ESRB)` - The Entertainment Software Rating Board evaluates a game's content and assigns an age rating such as Teen or Mature.
 *Data for 2016 may be incomplete.*
 
 ## Steps to Complete Project
