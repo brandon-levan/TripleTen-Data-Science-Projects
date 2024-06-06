@@ -1,12 +1,19 @@
 # [Sprint 1 - Working With Data in Python](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/main/Sprint%2001%20-%20Working%20With%20Data%20in%20Python/Sprint_1_Project.ipynb)
 
 ### Skills Learned in Sprint
-- 
+- How to work with large amounts of data in lists and dictionaries
+- How to write functions
+- How to perform four essential data-focused activities: retrieval, preprocessing, analysis, and presenting results
+- How to perform advanced data processing and analysis techniques using the pandas library
+- How to work with data and present results using Jupyter Notebook
   
 ## Problem Statement & Task
 In this project, I worked with data from the entertainment industry. I studied a dataset with records on movies and shows. The research will focus on the "Golden Age" of television, which began in 1999 with the release of The Sopranos and is still ongoing.
 
 The aim of this project was to investigate how the number of votes a title receives impacts its ratings. The assumption is that highly-rated shows (we will focus on TV shows, ignoring movies) released during the "Golden Age" of television also have the most votes.
+
+## Libraries Used in Project
+- `pandas`
   
 ## Data Description
 
