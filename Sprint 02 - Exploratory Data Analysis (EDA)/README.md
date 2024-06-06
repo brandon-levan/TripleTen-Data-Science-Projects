@@ -1,7 +1,8 @@
 # [Sprint 2 - Exploratory Data Analysis](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/main/Sprint%2002%20-%20Exploratory%20Data%20Analysis%20(EDA)/Sprint_2_Project.ipynb)
 
-### Skills Used in Project
+### Skills Learned in Sprint
 - EDA | Pandas | Data Preprocessing (Finding Duplicates, Filling Missing Values, Outlier Detection) | Data Analysis
+- 
   
 ## Problem Statement & Task
 Instacart is a grocery delivery platform where customers can place a grocery order and have it delivered to them, similar to how Uber Eats and Door Dash work. In this project, I will be working with a dataset that was publicly released by Instacart in a 2017 for a Kaggle competition.
@@ -22,10 +23,10 @@ There are five tables in the enitre Instantcart dataset. These tables provide in
 
 After checking for missing values and duplicates in the five tables in the Instantcart data set, I was able to uncover several insights in my exploratory data analysis. Here are a few findings -
 
-- Insight 1: The most popular time of the day to shop is 10 am
-- Insight 2: The most popular time of the week to shop is Monday
-- Insight 3: For those users that place multiple orders, on average people tend to wait 11.1 days until placing another order
-- Insight 4: On average users will purchase 10.1 items per order
+- **Insight 1:** The most popular time of the day to shop is 10 am
+- **Insight 2:** The most popular time of the week to shop is Monday
+- **Insight 3:** For those users that place multiple orders, on average people tend to wait 11.1 days until placing another order
+- **Insight 4:** On average users will purchase 10.1 items per order
 
 ## Examples of Visualizations Used in Project
 ![alt text](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/8ce6db8f5f3f9a8b19ad837095671f4dcf5b04ec/Sprint%2002%20-%20Exploratory%20Data%20Analysis%20(EDA)/Charts/hourly_instacart_orders.png)
