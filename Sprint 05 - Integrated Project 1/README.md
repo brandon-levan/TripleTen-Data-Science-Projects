@@ -11,7 +11,18 @@ I work for an online store called Ice, which sells video games all over the worl
 
 ## Data Description
 
-I will be conducting this analysis using a sample of 500 Megaline clients from 2018. The data set I will be working with contains information such as who the clients are, where they're from, which plan they use, and the number of calls they made and text messages they sent.
+`Name` - Name of game
+`Platform` - Platform game was released on
+`Year_of_Release` - Year of game release
+`Genre` - Genre of game
+`NA_sales` - North American sales in USD million
+`EU_sales` - sales in Europe in USD million
+`JP_sales` - sales in Japan in USD million
+`Other_sales` - sales in other countries in USD million
+`Critic_Score` - maximum of 100
+`User_Score` - maximum of 10
+`Rating (ESRB)` - The Entertainment Software Rating Board evaluates a game's content and assigns an age rating such as Teen or Mature.
+*Data for 2016 may be incomplete.*
 
 ## Steps to Complete Project
 - Step 1. Open the data file and study the general information
@@ -33,13 +44,17 @@ I will be conducting this analysis using a sample of 500 Megaline clients from 2
   
 ## Results & Findings
 
-1. Per month in 2018, we see that Ulitmate plan users spend more on average for their plans than surf plan users, however, surf plan users pay more in overages that ultimate plan users.
- - From the data, we can see these overages for surf plan users is largely attributed to GBs used for internet. Overages on internet for the surf plan cost 10 GB for every GB a user goes over the included amount of 15 GB. We don't see this for ultimate plan users. Looking at the box plot there are at least 25% of surf users that go over 15 GBs per month. This adds up fast.
-2. With a confidence interval of 95%,
-- We see that there is a difference in the average revenue for users in each plan.
-- However, we do not see a difference in the average revenue for users when comparing users in the NY/NJ and other regions of the United States
+Recall that it's December 2016 and I'm planning a video game advertising campaign for 2017. From my analysis of video game sales data from 2014 through 2016, I have a few important takeaways that I think will help my business sell more games in 2017 based on what we've historically seen in the past few years. Those findings are
+
+1. The platforms with high sales and popularity going into 2017 are the 3DS, PS4, and Xbox One
+2. In North America, the highest grossing genres are similiar to those in Europe: Shooters, Action, Sports, and Role-Playing. In Japan, the top genres by sales are Role-Playing and Action. For this reason, I will focus on advertising these genres.
+3. Games with E or M ratings tend to have high sales compared to other ESRB ratings
+4. There is a moderate positive correlation between critic score and sales for the PS4, so I will advertise any games for the PS4 with a high critic score. It would be beneficial to check if this holds true across other platforms so that I can keep my eyes open for high critic scores.
+   
+With these few insights, I can try to optimizing my advertising campaign for 2017 to increase sales.
 
 ## Examples of Visualizations Used in Project
-![alt text](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/main/Sprint%2003%20-%20Statistical%20Data%20Analysis/Assets/gigs.png)
-![alt text](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/4313ed56dbf2bf24088b483ecd25f4773af4bb15/Sprint%2002%20-%20Exploratory%20Data%20Analysis%20(EDA)/Charts/days_elapsed.png)
-![alt text](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/main/Sprint%2003%20-%20Statistical%20Data%20Analysis/Assets/hypothesis.png)
+![alt text](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/main/Sprint%2005%20-%20Integrated%20Project%201/Assets/bars.png)
+![alt text](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/main/Sprint%2005%20-%20Integrated%20Project%201/Assets/critic_score_scatter.png)
+![alt text](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/main/Sprint%2005%20-%20Integrated%20Project%201/Assets/histograms.png)
+![alt text](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/main/Sprint%2005%20-%20Integrated%20Project%201/Assets/sales_by_platform.png)
