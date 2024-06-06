@@ -7,12 +7,14 @@
 - More advanced techniques to filter data
 - How to create new columns by processing columns in the raw data
 - How to group data and combine data from different tables in various ways (merge and concatenation)
+
+### Libraries Used in Project
+ - 
   
 ## Problem Statement & Task
 Instacart is a grocery delivery platform where customers can place a grocery order and have it delivered to them, similar to how Uber Eats and Door Dash work. In this project, I will be working with a dataset that was publicly released by Instacart in a 2017 for a Kaggle competition.
 
 The goal of this project is to clean up the data and prepare a report that gives insight into the shopping habits of Instacart customers.
-  
 ## Data Description
 
 There are five tables in the enitre Instantcart dataset. These tables provide information on what a user orders, when they order, and what products are in the users orders.
