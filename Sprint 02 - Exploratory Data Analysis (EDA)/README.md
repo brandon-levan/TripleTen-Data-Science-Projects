@@ -1,28 +1,16 @@
-# [Sprint 1 - Working With Data in Python](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/main/Sprint%2001%20-%20Working%20With%20Data%20in%20Python/Sprint_1_Project.ipynb)
+# [Sprint 2 - Exploratory Data Analysis](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/main/Sprint%2002%20-%20Exploratory%20Data%20Analysis%20(EDA)/Sprint_2_Project.ipynb)
 
 ### Skills Used in Project
 - EDA | Pandas | Data Preprocessing (Finding Duplicates, Filling Missing Values, Outlier Detection) | Data Analysis
   
 ## Problem Statement & Task
-In this project, I worked with data from the entertainment industry. I studied a dataset with records on movies and shows. The research will focus on the "Golden Age" of television, which began in 1999 with the release of The Sopranos and is still ongoing.
+Instacart is a grocery delivery platform where customers can place a grocery order and have it delivered to them, similar to how Uber Eats and Door Dash work. In this project, I will be working with a dataset that was publicly released by Instacart in a 2017 for a Kaggle competition.
 
-The aim of this project was to investigate how the number of votes a title receives impacts its ratings. The assumption is that highly-rated shows (we will focus on TV shows, ignoring movies) released during the "Golden Age" of television also have the most votes.
+The goal of this project is to clean up the data and prepare a report that gives insight into the shopping habits of Instacart customers.
   
 ## Data Description
 
-The table contains nine columns. The majority store the same data type: object. The only exceptions are 'release Year' (int64 type), 'imdb sc0re' (float64 type) and 'imdb v0tes' (float64 type). Scores and votes will be used in our analysis, so it's important to verify that they are present in the dataframe in the appropriate numeric format. Three columns ('TITLE', 'imdb sc0re' and 'imdb v0tes') have missing values.
-
-*According to the documentation:*
-
- - `name` — actor/director's name and last name
- - `Character` — character played (for actors)
- - `r0le` — the person's contribution to the title (it can be in the capacity of either actor or director)
- - `TITLE` — title of the movie (show)
- - `Type` — show or movie
- - `release Year` — year when movie (show) was released
- - `genres` — list of genres under which the movie (show) falls
- - `imdb sc0re` — score on IMDb
- - `imdb v0tes` — votes on IMDb
+There are five tables in the enitre Instantcart dataset. These tables provide information on what a user orders, when they order, and what products are in the users orders.
 
 ## Steps to Complete Project
 - Explore data
@@ -32,4 +20,11 @@ The table contains nine columns. The majority store the same data type: object. 
   
 ## Results & Findings
 
-The research done confirms that highly-rated shows released during the "Golden Age" of television also have the most votes. While shows with score 4 have more votes than ones with scores 5 and 6, the top three (scores 7-9) have the largest number. The data studied represents around 94% of the original set, so we can be confident in our findings.
+After checking for missing values and duplicates in the five tables in the Instantcart data set, I was able to uncover several insights in my exploratory data analysis. Here are a few findings -
+
+- Insight 1: The most popular time of the day to shop is 10 am
+- Insight 2: The most popular time of the week to shop is Monday
+- Insight 3: For those users that place multiple orders, on average people tend to wait 11.1 days until placing another order
+- Insight 4: On average users will purchase 10.1 items per order
+
+## Examples of Visualizations Used in Project
