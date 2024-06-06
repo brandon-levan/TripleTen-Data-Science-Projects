@@ -28,4 +28,7 @@ After checking for missing values and duplicates in the five tables in the Insta
 - Insight 4: On average users will purchase 10.1 items per order
 
 ## Examples of Visualizations Used in Project
+![alt text](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/8ce6db8f5f3f9a8b19ad837095671f4dcf5b04ec/Sprint%2002%20-%20Exploratory%20Data%20Analysis%20(EDA)/Charts/hourly_instacart_orders.png)
 ![alt text](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/4313ed56dbf2bf24088b483ecd25f4773af4bb15/Sprint%2002%20-%20Exploratory%20Data%20Analysis%20(EDA)/Charts/days_elapsed.png)
+
+
