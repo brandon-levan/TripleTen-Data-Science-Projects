@@ -1,8 +1,12 @@
 # [Sprint 2 - Exploratory Data Analysis](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/main/Sprint%2002%20-%20Exploratory%20Data%20Analysis%20(EDA)/Sprint_2_Project.ipynb)
 
-### Skills Learned in Sprint
-- EDA | Pandas | Data Preprocessing (Finding Duplicates, Filling Missing Values, Outlier Detection) | Data Analysis
-- 
+### Skills Learned in Sprint 
+- More advanced ways to read and process data of different sources and formats
+- How to identify and process missing and duplicate data
+- How to visualize data for your own understanding and for presentations to an audience
+- More advanced techniques to filter data
+- How to create new columns by processing columns in the raw data
+- How to group data and combine data from different tables in various ways (merge and concatenation)
   
 ## Problem Statement & Task
 Instacart is a grocery delivery platform where customers can place a grocery order and have it delivered to them, similar to how Uber Eats and Door Dash work. In this project, I will be working with a dataset that was publicly released by Instacart in a 2017 for a Kaggle competition.
@@ -16,7 +20,7 @@ There are five tables in the enitre Instantcart dataset. These tables provide in
 ## Steps to Complete Project
 - Explore data
 - Clean data (find duplicates, fill missing values, convert datatypes, find outliers)
-- Perform analysis
+- Perform data analysis
 - Makes conclusions
   
 ## Results & Findings
