@@ -12,22 +12,17 @@
 
 ## Libraries Used
  - `pandas`, `numpy`, `matplotlib`, `sklearn` 
- - train_test_split, DecisionTreeClassifier, RandomForestClassifier, LogisticRegression, accuracy_score, 
+ - `train_test_split`, `DecisionTreeClassifier`, `RandomForestClassifier`, `LogisticRegression`, `accuracy_score` 
 
 ## Data Description
 
-`/datasets/project_sql_result_01.csv`
-- `company_name` - taxi company name
-- `trips_amount` - the number of rides for each taxi company on November 15-16, 2017.
+Every observation in the dataset contains monthly behavior information about one user. The information given is as follows:
 
-`/datasets/project_sql_result_04.csv`
-- `dropoff_location_name` - Chicago neighborhoods where rides ended
-- `average_trips` - the average number of rides that ended in each neighborhood in November 2017.
-
-`/datasets/project_sql_result_07.csv` contains data on rides from the Loop to O'Hare International Airport.
-- `start_ts` - pickup date and time
-- `weather_conditions` - weather conditions at the moment the ride started
-- `duration_seconds` - ride duration in seconds
+- `сalls` — number of calls
+- `minutes` — total call duration in minutes
+- `messages` — number of text messages
+- `mb_used` — Internet traffic used in MB
+- `is_ultra` — plan for the current month (Ultra - 1, Smart - 0)
 
 ## Steps to Complete Project
 1. Open and look through the data file
