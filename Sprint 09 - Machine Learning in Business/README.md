@@ -2,7 +2,7 @@
 
 ## Skills Learned in Sprint 
 - Learn business metrics and how they relate to ML metrics.
-- Master the Bootstrapping technique and learn to analyze the A/B test results.
+- Master the bootstrapping technique and learn to analyze the A/B test results.
 - Understand what data labeling is and who the assessors are.
  
 ## Problem Statement & Task
@@ -49,9 +49,17 @@
   
 ## Results & Findings
 
-Mobile carrier Megaline has found out that many of their subscribers use legacy plans. They want to develop a model that would analyze subscribers' behavior and recommend one of Megaline's newer plans: Smart or Ultra. After testing and tuning a few classification models on behavioral data about subscribers who have already switched to the new plans, I would suggest to Megaline to implement a Decision Tree Classification Model with depth of 3 in order to pick the right plan for subscribers on legacy plans. This model had the highest accuracy of all three classification models and is above the acceptable accuracy threshold of 75%.
+To help make it easier to visualize which region OilyGiant mining company should develop in, I created the table below with the findings from each Region - 
 
-## Examples of Code Used in Project
-![alt text]()
+| Region       | Lower Bound     | Upper Bound   | Average Profit  | Risk of Losses  |
+| -----------  | ------          | ----          | ----            | ----     |
+| Region A     |  -4,750,652.92  | 9,493,674.16  | 2,741,939.54   | 21.1%    |
+| Region B     |  -473,533.83    | 9,359,388.99  | 4,454,815.22   | 3.2%     |
+| Region C     |  -3,624,449.01  | 10,963,629.04 | 3,338,564.25   | 19.2%    |
+
+After all of my analysis, my suggestion would be for OilyGiant mining company to develop in **Region B**. I suggest development in Region B because of the strong results Region B generated as a result of bootstrapping. When we select a sample of the top 200 wells from a larger random sample of 500 wells from each region 1000 times, we start to gain a more realistic understanding of what our profit might be and what the risk of losing money on our investment could be. By running the this experiment 1000 times, we see that Region B not only has the highest average profit for a selection of 200 wells given a random sample of 500, it also has the highest chance of being profitable (3.2% risk of losses). If there were to be losses for Region B, the lower bound for loss is much less extreme compared to the other regions. For example, if your investment is not profitable in Region B, you can expect to lose -473,533.83, whereas in the other two regions, you'd lose over $3 Million. After running our analysis, Region B seems like both a safe and profitable selection for OilyGiant mining company to develop wells in.
+
+## Examples of Visualizations Used in Project
+![alt text](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/main/Sprint%2009%20-%20Machine%20Learning%20in%20Business/Assets/profit_distribution.png)
 
 
