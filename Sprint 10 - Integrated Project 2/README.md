@@ -10,7 +10,7 @@
 ## Problem Statement & Task
 **Project Objective** - I work for the OilyGiant mining company, and my task is to find the best place for a new well.
 
-![alt text]()
+![alt text](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/main/Sprint%2010%20-%20Integrated%20Project%202/Assets/recovery.jpeg)
 
 ## Steps to Complete Project
 **_To choose a new location I will -_**
