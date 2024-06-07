@@ -41,7 +41,7 @@ Every observation in the dataset contains monthly behavior information about one
 ## Steps to Complete Project
 1. Download and prepare the data and explain the procedure
 2. Examine the balance of classes
-  - Train the model without taking into account the imbalance
+   - Train the model without taking into account the imbalance
 3. Improve the quality of the model using at least two approaches to fixing class imbalance
   - Use the training set to pick the best parameters
   - Train different models on training and validation sets to find the best model
