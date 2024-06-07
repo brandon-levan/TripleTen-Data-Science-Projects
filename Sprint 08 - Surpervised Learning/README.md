@@ -13,7 +13,8 @@
 ## Libraries Used
  - `pandas` `numpy` `matplotlib` `sklearn` 
  - `train_test_split` `StandardScaler` `shuffle` `DecisionTreeClassifier` `RandomForestClassifier` `LogisticRegression`
- - *For Model Evaluation* - `accuracy_score` `confusion_matrix` `recall_score` `precision_score` `f1_score` `roc_curve` `roc_auc_score`
+ - *For Model Evaluation*
+   - `accuracy_score` `confusion_matrix` `recall_score` `precision_score` `f1_score` `roc_curve` `roc_auc_score`
 
 ## Data Description
 
