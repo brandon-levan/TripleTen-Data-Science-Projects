@@ -26,17 +26,17 @@
 - `Surname` — surname
 - `CreditScore` — credit score 
 - `Geography` — country of residence 
-`Gender` — gender <br>
-`Age` — age <br>
-`Tenure` — period of maturation for a customer’s fixed deposit (years) <br>
-`Balance` — account balance <br>
-`NumOfProducts` — number of banking products used by the customer <br>
-`HasCrCard` — customer has a credit card <br>
-`IsActiveMember` — customer’s activeness <br>
-`EstimatedSalary` — estimated salary <br>
+- `Gender` — gender
+- `Age` — age 
+- `Tenure` — period of maturation for a customer’s fixed deposit (years)
+- `Balance` — account balance 
+- `NumOfProducts` — number of banking products used by the customer
+- `HasCrCard` — customer has a credit card
+- `IsActiveMember` — customer’s activeness 
+- `EstimatedSalary` — estimated salary 
 
 **Target** <br>
-`Exited` — сustomer has left
+- `Exited` — сustomer has left
 
 ## Steps to Complete Project
 1. Download and prepare the data and explain the procedure
