@@ -14,7 +14,7 @@ Instacart is a grocery delivery platform where customers can place a grocery ord
 The goal of this project is to clean up the data and prepare a report that gives insight into the shopping habits of Instacart customers.
 
 ## Libraries Used
- - `pandas`, `numpy`, `matplotlib`
+ - `pandas` `numpy` `matplotlib`
 
 ## Data Description
 
