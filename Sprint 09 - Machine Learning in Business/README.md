@@ -18,8 +18,7 @@
 - Analyze potential profit and risks using the Bootstrapping technique
 
 ## Libraries Used
- - `pandas` `numpy` `matplotlib` `sklearn` 
-   - `train_test_split` `LinearRegression` `mean_squared_error`
+ - `pandas` `numpy` `matplotlib` `sklearn` (`train_test_split` `LinearRegression` `mean_squared_error`)
 
 ## Data Description
 
