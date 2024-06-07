@@ -21,8 +21,8 @@ Every observation in the dataset contains monthly behavior information about one
 
 Features
 
-`RowNumber` — data string index
-`CustomerId` — unique customer identifier
+`RowNumber` — data string index <br>
+`CustomerId` — unique customer identifier <br>
 `Surname` — surname
 - `CreditScore` — credit score
 - `Geography` — country of residence
