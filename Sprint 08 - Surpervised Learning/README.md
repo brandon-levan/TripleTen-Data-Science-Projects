@@ -6,7 +6,7 @@
 - To understand the new evaluation metrics for regression: MAE and R². Calculate their values using the scikit-learn tools.
  
 ## Problem Statement & Task
-**Problem Statement** - Beta Bank customers are leaving: little by little, chipping away every month. The bankers figured out it’s cheaper to save the existing customers rather than to attract new ones. My responsability will be to predict whether a customer will leave the bank soon. I have the data on clients’ past behavior and termination of contracts with the bank to do this task.
+**Problem Statement** - Beta Bank customers are leaving: little by little, chipping away every month. The bankers figured out it’s cheaper to save the existing customers rather than to attract new ones. My responsibility will be to predict whether a customer will leave the bank soon. I have the data on clients’ past behavior and termination of contracts with the bank to do this task.
 
 **Project Objective** - I will build a model with the maximum possible F1 score, with the requirement that the F1 score for my model must be at least 0.59.
 
