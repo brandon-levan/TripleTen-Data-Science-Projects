@@ -12,7 +12,7 @@
 As an analyst for Zuber, a new ride-sharing company that's launching in Chicago, my task is to find patterns in the available information. I want to understand passenger preferences and the impact of external factors on rides. Working with a database, I will analyze data from competitors and test a hypothesis about the impact of weather on ride frequency.
 
 ## Libraries Used
- - `pandas`, `numpy`, `matplotlib`, `scipy`
+ - `pandas` `numpy` `matplotlib` `scipy`
 
 ## Data Description
 
