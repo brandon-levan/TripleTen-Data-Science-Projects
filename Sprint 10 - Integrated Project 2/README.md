@@ -6,38 +6,8 @@
 - Understand what data labeling is and who the assessors are.
 
 ## Libraries Used
- - `pandas` `numpy` `matplotlib` `sklearn` (`train_test_split` `LinearRegression` `mean_squared_error`)
- - `DummyRegressor`,`make_scorer`,`cross_val_score`
-
-
-# Import libraries required for the project
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-
-# To Create Training & Validation Sets
-from sklearn.model_selection import train_test_split
-
-# To calculate MAE
-from sklearn.metrics import mean_absolute_error
-
-# Regression Models 
-from sklearn.linear_model import LinearRegression
-from sklearn.tree import DecisionTreeRegressor
-from sklearn.ensemble import RandomForestRegressor
-
-# Cross Validation Score For Model Evaluation 
-from sklearn.model_selection import cross_val_score
-
-# For make_scorer to use in cross validation 
-from sklearn.metrics import make_scorer
-
-# DummyRegressor
-from sklearn.dummy import DummyRegressor 
-
-
-
-
+ - `pandas` `numpy` `matplotlib` `sklearn`
+ - *From scikit-learn* - `train_test_split` `LinearRegression` `DecisionTreeRegressor` `RandomForestRegressor` `mean_squared_error` `DummyRegressor`,`make_scorer`,`cross_val_score`
  
 ## Problem Statement & Task
 **Project Objective** - I work for the OilyGiant mining company, and my task is to find the best place for a new well.
