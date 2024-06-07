@@ -6,10 +6,13 @@
 - To learn how to examine models and pick the best one.
  
 ## Problem Statement & Task
-As an analyst for Zuber, a new ride-sharing company that's launching in Chicago, my task is to find patterns in the available information. I want to understand passenger preferences and the impact of external factors on rides. Working with a database, I will analyze data from competitors and test a hypothesis about the impact of weather on ride frequency.
+**Problem Summary** - Mobile carrier Megaline has found out that many of their subscribers use legacy plans. They want to develop a model that would analyze subscribers' behavior and recommend one of Megaline's newer plans: Smart or Ultra. Because I have access to behavioral data about subscribers who have already switched to the new plans, I will develop a classification model that will pick the right plan for subscribers on legacy plans.
+
+**Objective** - Develop a model with the highest possible accuracy. In this project, the threshold for accuracy is 0.75.
 
 ## Libraries Used
- - `pandas`, `numpy`, `matplotlib`, `scipy`
+ - `pandas`, `numpy`, `matplotlib`, `sklearn` 
+ - train_test_split, DecisionTreeClassifier, RandomForestClassifier, LogisticRegression, accuracy_score, 
 
 ## Data Description
 
@@ -27,14 +30,10 @@ As an analyst for Zuber, a new ride-sharing company that's launching in Chicago,
 - `duration_seconds` - ride duration in seconds
 
 ## Steps to Complete Project
-1. Import the files
-2. Study the data they contain
-3. Make sure the data types are correct
-4. Identify the top 10 neighborhoods in terms of drop-offs
-5. Make graphs: taxi companies and number of rides, top 10 neighborhoods by number of dropoffs
-6. Draw conclusions based on each graph and explain the results
-7. Test the hypothesis
-   - The average duration of rides from the Loop to O'Hare International Airport changes on rainy Saturdays
+1. Open and look through the data file
+2. Split the data into a training set, a validation set, and a test set
+3. Investigate the quality of different models by changing hyperparameters and describe the findings
+4. Check the quality of the model using the test set
   
 ## Results & Findings
 
