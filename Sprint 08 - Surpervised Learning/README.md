@@ -43,8 +43,8 @@ Every observation in the dataset contains monthly behavior information about one
 2. Examine the balance of classes
    - Train the model without taking into account the imbalance
 3. Improve the quality of the model using at least two approaches to fixing class imbalance
-  - Use the training set to pick the best parameters
-  - Train different models on training and validation sets to find the best model
+   - Use the training set to pick the best parameters
+   - Train different models on training and validation sets to find the best model
 4. Perform the final testing
   
 ## Results & Findings
