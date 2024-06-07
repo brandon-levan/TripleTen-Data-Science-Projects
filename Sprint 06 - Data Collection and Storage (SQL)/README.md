@@ -37,7 +37,7 @@ As an analyst for Zuber, a new ride-sharing company that's launching in Chicago,
 5. Make graphs: taxi companies and number of rides, top 10 neighborhoods by number of dropoffs
 6. Draw conclusions based on each graph and explain the results
 6. Test the hypothesis
- - The average duration of rides from the Loop to O'Hare International Airport changes on rainy Saturdays
+  - The average duration of rides from the Loop to O'Hare International Airport changes on rainy Saturdays
   
 ## Results & Findings
 
