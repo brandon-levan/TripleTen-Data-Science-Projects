@@ -3,6 +3,8 @@
 ## Skills Learned in Sprint 
 - Develop and deploy a web application to a cloud service so that it is accessible to the public
 
+## Libraries Used
+ - `pandas` `streamlit` `plotly.express` `altair`
 
 ## Problem Statement & Task
 Using a car advertisement dataset (vehicles_us.csv), this TripleTen project aims to provide additional practice on common software engineering tasks to develop and deploy a web application to a cloud service.  
@@ -10,9 +12,6 @@ Using a car advertisement dataset (vehicles_us.csv), this TripleTen project aims
 If you want to view my project, please access it using this link: [https://software-development-tools-project-rbzd.onrender.com](https://software-development-tools-project-rbzd.onrender.com)
 
 For this project, I've created a Streamlit application hosted on Render that allows users in interact with the car advertisement dataset to uncover insights about what car attributes can increase its value on the secondary market. For additional context, the car advertisement dataset contains information on used car sales such as price, model year, model, car condition, number of cylinders, fuel type, miles on the odometer, transmission type, car type, paint color, four wheel drive, date posted, and days listed. Using data visualization, this project aims to uncover insights about which attributes have a directional impact on price and allows for users to interact with the plots to uncover their own findings. 
-
-## Libraries Used
- - `pandas` `streamlit` `plotly.express` `altair`
 
 ## How Was This Web Application Developed
 
