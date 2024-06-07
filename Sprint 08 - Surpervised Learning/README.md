@@ -4,18 +4,18 @@
 - Learn up new evaluation metrics for classification: precision, recall, F1 score, and AUC-ROC. Calculate their values using the scikit-learn tools.
 - Solve imbalanced classification tasks. That includes adjusting class weights and tuning their thresholds.
 - Understand the new evaluation metrics for regression: MAE and R². Calculate their values using the scikit-learn tools.
+  
+## Libraries Used
+ - `pandas` `numpy` `matplotlib` `sklearn` 
+ - `train_test_split` `StandardScaler` `shuffle` `DecisionTreeClassifier` `RandomForestClassifier` `LogisticRegression`
+ - *For Model Evaluation*
+   - `accuracy_score` `confusion_matrix` `recall_score` `precision_score` `f1_score` `roc_curve` `roc_auc_score`
  
 ## Problem Statement & Task
 **Problem Statement** - Beta Bank customers are leaving: little by little, chipping away every month. The bankers figured out it’s cheaper to save the existing customers rather than to attract new ones. My responsibility will be to predict whether a customer will leave the bank soon. I have the data on clients’ past behavior and termination of contracts with the bank to do this task.
 
 **Project Objective** - I will build a model with the maximum possible F1 score, with the requirement that the F1 score for my model must be at least 0.59.
 
-## Libraries Used
- - `pandas` `numpy` `matplotlib` `sklearn` 
- - `train_test_split` `StandardScaler` `shuffle` `DecisionTreeClassifier` `RandomForestClassifier` `LogisticRegression`
- - *For Model Evaluation*
-   - `accuracy_score` `confusion_matrix` `recall_score` `precision_score` `f1_score` `roc_curve` `roc_auc_score`
-  
 ## Steps to Complete Project
 1. Download and prepare the data and explain the procedure
 2. Examine the balance of classes
