@@ -14,7 +14,7 @@ As an analyst for the telecom operator Megaline, I will be doing an analysis for
 The average revenue from users of Ultimate and Surf calling plans differs. The average revenue from users in NY-NJ area is different from that of the users from other regions. Decide what alpha value and explain the hypotheses and the results of the statistical tests run on the data set.
 
 ## Libraries Used
- - `pandas`, `numpy`, `matplotlib`, `scipy`
+ - `pandas` `numpy` `matplotlib` `scipy`
 
 ## Data Description
 
