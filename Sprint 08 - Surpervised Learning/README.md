@@ -20,7 +20,7 @@
 
 *Every observation in the dataset contains monthly behavior information about one user. The information given is as follows:*
 
-**Features**
+**Features** <br>
 `RowNumber` — data string index <br>
 `CustomerId` — unique customer identifier <br>
 `Surname` — surname
@@ -35,7 +35,7 @@
 `IsActiveMember` — customer’s activeness <br>
 `EstimatedSalary` — estimated salary <br>
 
-**Target**
+**Target** <br>
 `Exited` — сustomer has left
 
 ## Steps to Complete Project
