@@ -7,14 +7,14 @@
 - Get familiar with the probability theory
 - Define distribution types and learn to calculate both normal and binomial distributions
 - Learn to formulate and test hypotheses
+
+## Libraries Used
+ - `pandas` `numpy` `matplotlib` `scipy`
  
 ## Problem Statement & Task
 As an analyst for the telecom operator Megaline, I will be doing an analysis for the commerical department on which pre-paid plan (Surf or Ultimate) brings in more revenue for Megaline so that they can adjust the advertising budget accordingly.
 
 The average revenue from users of Ultimate and Surf calling plans differs. The average revenue from users in NY-NJ area is different from that of the users from other regions. Decide what alpha value and explain the hypotheses and the results of the statistical tests run on the data set.
-
-## Libraries Used
- - `pandas` `numpy` `matplotlib` `scipy`
 
 ## Data Description
 
