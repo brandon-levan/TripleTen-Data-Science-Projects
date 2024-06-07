@@ -8,11 +8,19 @@
 ## Problem Statement & Task
 **Project Objective** - I work for the OilyGiant mining company, and my task is to find the best place for a new well.
 
-
-
 ## Libraries Used
  - `pandas` `numpy` `matplotlib` `sklearn` (`train_test_split` `LinearRegression` `mean_squared_error`)
 
+## Steps to Complete Project
+**_To choose a new location I will -_**
+
+- Collect the oil well parameters for each of the selected region: oil quality and volume of reserves
+- Build a model for predicting the volume of reserves in the new wells
+- Pick the oil wells with the highest estimated values
+- Pick the region with the highest total profit for the selected oil wells
+- Build a model that will help to pick the region with the highest profit margin
+- Analyze potential profit and risks using the Bootstrapping technique
+   
 ## Data Description
 
 *Every observation in the dataset contains monthly behavior information about one user. The information given is as follows:*
@@ -24,15 +32,7 @@
 **Target**
 - `product` — volume of reserves in the oil well (thousand barrels)
 
-## Steps to Complete Project
-**_To choose a new location I will -_**
 
-- Collect the oil well parameters for each of the selected region: oil quality and volume of reserves
-- Build a model for predicting the volume of reserves in the new wells
-- Pick the oil wells with the highest estimated values
-- Pick the region with the highest total profit for the selected oil wells
-- Build a model that will help to pick the region with the highest profit margin
-- Analyze potential profit and risks using the Bootstrapping technique
   
 ## Results & Findings
 
