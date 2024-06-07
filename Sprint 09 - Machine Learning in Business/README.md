@@ -6,15 +6,20 @@
 - Understand what data labeling is and who the assessors are.
  
 ## Problem Statement & Task
-**Problem Statement** - Beta Bank customers are leaving: little by little, chipping away every month. The bankers figured out it’s cheaper to save the existing customers rather than to attract new ones. My responsibility will be to predict whether a customer will leave the bank soon. I have the data on clients’ past behavior and termination of contracts with the bank to do this task.
+**Project Objective** - I work for the OilyGiant mining company, and my task is to find the best place for a new well.
 
-**Project Objective** - I will build a model with the maximum possible F1 score, with the requirement that the F1 score for my model must be at least 0.59.
+**_To choose a new location I will -_**
+
+- Collect the oil well parameters for each of the selected region: oil quality and volume of reserves
+- Build a model for predicting the volume of reserves in the new wells
+- Pick the oil wells with the highest estimated values
+- Pick the region with the highest total profit for the selected oil wells
+- Build a model that will help to pick the region with the highest profit margin
+- Analyze potential profit and risks using the Bootstrapping technique
 
 ## Libraries Used
  - `pandas` `numpy` `matplotlib` `sklearn` 
- - `train_test_split` `StandardScaler` `shuffle` `DecisionTreeClassifier` `RandomForestClassifier` `LogisticRegression`
- - *For Model Evaluation*
-   - `accuracy_score` `confusion_matrix` `recall_score` `precision_score` `f1_score` `roc_curve` `roc_auc_score`
+   - `train_test_split` `LinearRegression` `mean_squared_error`
 
 ## Data Description
 
