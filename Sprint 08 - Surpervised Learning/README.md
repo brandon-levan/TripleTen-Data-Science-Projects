@@ -13,30 +13,29 @@
 ## Libraries Used
  - `pandas` `numpy` `matplotlib` `sklearn` 
  - `train_test_split` `StandardScaler` `shuffle` `DecisionTreeClassifier` `RandomForestClassifier` `LogisticRegression`
-  - `accuracy_score` `confusion_matrix` `recall_score` `precision_score` `f1_score` `roc_curve` `roc_auc_score`
+ - *For Model Evaluation* - `accuracy_score` `confusion_matrix` `recall_score` `precision_score` `f1_score` `roc_curve` `roc_auc_score`
 
 ## Data Description
 
 Every observation in the dataset contains monthly behavior information about one user. The information given is as follows:
 
-Features
-
+**Features**
 `RowNumber` — data string index <br>
 `CustomerId` — unique customer identifier <br>
 `Surname` — surname
-- `CreditScore` — credit score
-- `Geography` — country of residence
-- `Gender` — gender
-- `Age` — age
-- `Tenure` — period of maturation for a customer’s fixed deposit (years)
-- `Balance` — account balance
-- `NumOfProducts` — number of banking products used by the customer
-- `HasCrCard` — customer has a credit card
-- `IsActiveMember` — customer’s activeness
-- `EstimatedSalary` — estimated salary
+`CreditScore` — credit score <br>
+`Geography` — country of residence <br>
+`Gender` — gender <br>
+`Age` — age <br>
+`Tenure` — period of maturation for a customer’s fixed deposit (years) <br>
+`Balance` — account balance <br>
+`NumOfProducts` — number of banking products used by the customer <br>
+`HasCrCard` — customer has a credit card <br>
+`IsActiveMember` — customer’s activeness <br>
+`EstimatedSalary` — estimated salary <br>
 
-- Target
-  - `Exited` — сustomer has left
+**Target**
+`Exited` — сustomer has left
 
 ## Steps to Complete Project
 1. Download and prepare the data and explain the procedure
