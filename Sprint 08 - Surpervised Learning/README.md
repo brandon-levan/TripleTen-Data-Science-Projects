@@ -35,7 +35,7 @@
 - `IsActiveMember` — customer’s activeness 
 - `EstimatedSalary` — estimated salary 
 
-**Target** <br>
+**Target**
 - `Exited` — сustomer has left
 
 ## Steps to Complete Project
