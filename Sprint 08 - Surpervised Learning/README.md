@@ -20,12 +20,12 @@
 
 *Every observation in the dataset contains monthly behavior information about one user. The information given is as follows:*
 
-**Features** <br>
-- `RowNumber` — data string index <br>
-- `CustomerId` — unique customer identifier <br>
-`Surname` — surname
-`CreditScore` — credit score <br>
-`Geography` — country of residence <br>
+**Features**
+- `RowNumber` — data string index 
+- `CustomerId` — unique customer identifier 
+- `Surname` — surname
+- `CreditScore` — credit score 
+- `Geography` — country of residence 
 `Gender` — gender <br>
 `Age` — age <br>
 `Tenure` — period of maturation for a customer’s fixed deposit (years) <br>
