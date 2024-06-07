@@ -8,14 +8,7 @@
 ## Problem Statement & Task
 **Project Objective** - I work for the OilyGiant mining company, and my task is to find the best place for a new well.
 
-**_To choose a new location I will -_**
 
-- Collect the oil well parameters for each of the selected region: oil quality and volume of reserves
-- Build a model for predicting the volume of reserves in the new wells
-- Pick the oil wells with the highest estimated values
-- Pick the region with the highest total profit for the selected oil wells
-- Build a model that will help to pick the region with the highest profit margin
-- Analyze potential profit and risks using the Bootstrapping technique
 
 ## Libraries Used
  - `pandas` `numpy` `matplotlib` `sklearn` (`train_test_split` `LinearRegression` `mean_squared_error`)
@@ -25,31 +18,21 @@
 *Every observation in the dataset contains monthly behavior information about one user. The information given is as follows:*
 
 **Features**
-- `RowNumber` — data string index 
-- `CustomerId` — unique customer identifier 
-- `Surname` — surname
-- `CreditScore` — credit score 
-- `Geography` — country of residence 
-- `Gender` — gender
-- `Age` — age 
-- `Tenure` — period of maturation for a customer’s fixed deposit (years)
-- `Balance` — account balance 
-- `NumOfProducts` — number of banking products used by the customer
-- `HasCrCard` — customer has a credit card
-- `IsActiveMember` — customer’s activeness 
-- `EstimatedSalary` — estimated salary 
+- `id` — unique oil well identifier
+- `f0, f1, f2` — three features of points (their specific meaning is unimportant, but the features themselves are significant)
 
 **Target**
-- `Exited` — сustomer has left
+- `product` — volume of reserves in the oil well (thousand barrels)
 
 ## Steps to Complete Project
-1. Download and prepare the data and explain the procedure
-2. Examine the balance of classes
-   - Train the model without taking into account the imbalance
-3. Improve the quality of the model using at least two approaches to fixing class imbalance
-   - Use the training set to pick the best parameters
-   - Train different models on training and validation sets to find the best model
-4. Perform the final testing
+**_To choose a new location I will -_**
+
+- Collect the oil well parameters for each of the selected region: oil quality and volume of reserves
+- Build a model for predicting the volume of reserves in the new wells
+- Pick the oil wells with the highest estimated values
+- Pick the region with the highest total profit for the selected oil wells
+- Build a model that will help to pick the region with the highest profit margin
+- Analyze potential profit and risks using the Bootstrapping technique
   
 ## Results & Findings
 
