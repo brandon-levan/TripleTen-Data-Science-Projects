@@ -47,6 +47,6 @@ As an analyst for Zuber, a new ride-sharing company that's launching in Chicago,
 - **Insight 3** - There is a statistically signficant difference in the average ride duration from the Loop to O'Hare International Airport between rainy and non-rainy Saturdays.
 
 ## Examples of Visualizations Used in Project
-![alt text]()
-![alt text]()
-![alt text]()
+![alt text](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/main/Sprint%2006%20-%20Data%20Collection%20and%20Storage%20(SQL)/Assets/dropoffs.png)
+![alt text](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/main/Sprint%2006%20-%20Data%20Collection%20and%20Storage%20(SQL)/Assets/trips.png)
+
