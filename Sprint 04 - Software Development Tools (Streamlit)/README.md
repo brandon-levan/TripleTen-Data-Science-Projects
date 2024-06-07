@@ -12,7 +12,7 @@ If you want to view my project, please access it using this link: [https://softw
 For this project, I've created a Streamlit application hosted on Render that allows users in interact with the car advertisement dataset to uncover insights about what car attributes can increase its value on the secondary market. For additional context, the car advertisement dataset contains information on used car sales such as price, model year, model, car condition, number of cylinders, fuel type, miles on the odometer, transmission type, car type, paint color, four wheel drive, date posted, and days listed. Using data visualization, this project aims to uncover insights about which attributes have a directional impact on price and allows for users to interact with the plots to uncover their own findings. 
 
 ## Libraries Used
- - `pandas`, `streamlit`, `plotly.express`, `altair`
+ - `pandas` `streamlit` `plotly.express` `altair`
 
 ## How Was This Web Application Developed
 
