@@ -4,12 +4,12 @@
 - Learn business metrics and how they relate to ML metrics.
 - Master the bootstrapping technique and learn to analyze the A/B test results.
 - Understand what data labeling is and who the assessors are.
- 
-## Problem Statement & Task
-**Project Objective** - I work for the OilyGiant mining company, and my task is to find the best place for a new well.
 
 ## Libraries Used
  - `pandas` `numpy` `matplotlib` `sklearn` (`train_test_split` `LinearRegression` `mean_squared_error`)
+ 
+## Problem Statement & Task
+**Project Objective** - I work for the OilyGiant mining company, and my task is to find the best place for a new well.
 
 ## Steps to Complete Project
 **_To choose a new location I will -_**
