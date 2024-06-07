@@ -1,12 +1,9 @@
 # [Sprint 7 - Introduction to ML](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/main/Sprint%2007%20-%20Introduction%20to%20ML/Sprint_7_Project.ipynb)
 
 ## Skills Learned in Sprint 
-- How to write SQL queries of varying degrees of complexity
-- What regular expressions are good for and how to write them
-- How to slice data and write subqueries
-- How to use SQL documentation
-- How to use aggregate functions
-- Various methods for merging tables
+- To understand basic machine learning terminology. For example, the difference between classification and regression, or the difference between a model and a learning algorithm.
+- To master the scikit-learn library, learn to measure evaluation metrics and train models.
+- To learn how to examine models and pick the best one.
  
 ## Problem Statement & Task
 As an analyst for Zuber, a new ride-sharing company that's launching in Chicago, my task is to find patterns in the available information. I want to understand passenger preferences and the impact of external factors on rides. Working with a database, I will analyze data from competitors and test a hypothesis about the impact of weather on ride frequency.
