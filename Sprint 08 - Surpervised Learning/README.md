@@ -1,9 +1,9 @@
 # [Sprint 8 - Supervised Learning](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/main/Sprint%2008%20-%20Surpervised%20Learning/Sprint_8_Project.ipynb)
 
 ## Skills Learned in Sprint 
-- To pick up new evaluation metrics for classification: precision, recall, F1 score, and AUC-ROC. Calculate their values using the scikit-learn tools.
-- To solve imbalanced classification tasks. That includes adjusting class weights and tuning their thresholds.
-- To understand the new evaluation metrics for regression: MAE and R². Calculate their values using the scikit-learn tools.
+- Learn up new evaluation metrics for classification: precision, recall, F1 score, and AUC-ROC. Calculate their values using the scikit-learn tools.
+- Solve imbalanced classification tasks. That includes adjusting class weights and tuning their thresholds.
+- Understand the new evaluation metrics for regression: MAE and R². Calculate their values using the scikit-learn tools.
  
 ## Problem Statement & Task
 **Problem Statement** - Beta Bank customers are leaving: little by little, chipping away every month. The bankers figured out it’s cheaper to save the existing customers rather than to attract new ones. My responsibility will be to predict whether a customer will leave the bank soon. I have the data on clients’ past behavior and termination of contracts with the bank to do this task.
@@ -18,7 +18,7 @@
 
 ## Data Description
 
-Every observation in the dataset contains monthly behavior information about one user. The information given is as follows:
+*Every observation in the dataset contains monthly behavior information about one user. The information given is as follows:*
 
 **Features**
 `RowNumber` — data string index <br>
@@ -51,7 +51,7 @@ Every observation in the dataset contains monthly behavior information about one
 
 Mobile carrier Megaline has found out that many of their subscribers use legacy plans. They want to develop a model that would analyze subscribers' behavior and recommend one of Megaline's newer plans: Smart or Ultra. After testing and tuning a few classification models on behavioral data about subscribers who have already switched to the new plans, I would suggest to Megaline to implement a Decision Tree Classification Model with depth of 3 in order to pick the right plan for subscribers on legacy plans. This model had the highest accuracy of all three classification models and is above the acceptable accuracy threshold of 75%.
 
-## Examples of Visualizations Used in Project
+## Examples of Code Used in Project
 ![alt text](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/main/Sprint%2008%20-%20Surpervised%20Learning/Assets/balance.png)
 ![alt text](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/main/Sprint%2008%20-%20Surpervised%20Learning/Assets/compare.png)
 ![alt text](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/main/Sprint%2008%20-%20Surpervised%20Learning/Assets/train.png)
