@@ -50,13 +50,13 @@ I've summarized the conclusions from each task below -
    - Increasing the k value doesn't always have a positive affect on improving the F1 score.
    - Using scaled data in a kNN model produces better results than with unscaled data.
 **Task 3 - Regression (with Linear Regression)**
-- RMSE & R^2 values are the same when the linear regression model is run on scaled and unscaled data
+   - RMSE & R^2 values are the same when the linear regression model is run on scaled and unscaled data
 **Task 4 - Obfuscating Data**
-- Between the original and recovered data, the values aren't exactly the same because of rounding (floats vs integers). The transformed data is different than the original and reversed data because it is intended to be obfuscated.
+   - Between the original and recovered data, the values aren't exactly the same because of rounding (floats vs integers). The transformed data is different than the original and reversed data because it is intended to be obfuscated.
 **Task 5 - Proof That Data Obfuscation Can Work with LR**
-- Obfuscation won't affect linear regression in terms of predicted values or RSME
+   - Obfuscation won't affect linear regression in terms of predicted values or RSME
 **Task 6 - Test Linear Regression With Data Obfuscation**
-- Obfuscating the data has no affect on the results of the linear regression model. When fitting the Linear Regression model to the original and obfuscated training data and predicting the test values, we see the same results in terms of F1 and R2 scores.
+   - Obfuscating the data has no affect on the results of the linear regression model. When fitting the Linear Regression model to the original and obfuscated training data and predicting the test values, we see the same results in terms of F1 and R2 scores.
 
 ## Examples of Visualizations Used in Project
 ![alt text]()
