@@ -18,19 +18,15 @@ The Sure Tomorrow insurance company wants to solve several tasks with the help o
 - **Task 4:** Protect clients' personal data without breaking the model from the previous task. It's necessary to develop a data transformation algorithm that would make it hard to recover personal information if the data fell into the wrong hands. This is called data masking, or data obfuscation. But the data should be protected in such a way that the quality of machine learning models doesn't suffer. You don't need to pick the best model, just prove that the algorithm works correctly.
 
 ## Steps to Complete Project
-**_To choose a new location I will -_**
-
-- Collect the oil well parameters for each of the selected region: oil quality and volume of reserves
-- Build a model for predicting the volume of reserves in the new wells
-- Pick the oil wells with the highest estimated values
-- Pick the region with the highest total profit for the selected oil wells
-- Build a model that will help to pick the region with the highest profit margin
-- Analyze potential profit and risks using the Bootstrapping technique
+- Load the data
+- Check that the data is free of issues — there is no missing data, extreme values, and so on
+- Work on each task and answer the questions posed in the project template
+- Draw conclusions based on your experience working on the project
    
 ## Data Description
 
-- `Features`: insured person's gender, age, salary, and number of family members.
-- `Target`: number of insurance benefits received by an insured person over the last five years.
+- `Features`: insured person's gender, age, salary, and number of family members
+- `Target`: number of insurance benefits received by an insured person over the last five years
   
 ## Results & Findings
 
