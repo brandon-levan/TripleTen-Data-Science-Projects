@@ -59,5 +59,5 @@ I've summarized the conclusions from each task below -
    - Obfuscating the data has no affect on the results of the linear regression model. When fitting the Linear Regression model to the original and obfuscated training data and predicting the test values, we see the same results in terms of F1 and R2 scores.
 
 ## Examples of Visualizations Used in Project
-![alt text]()
+![alt text](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/main/Sprint%2011%20-%20Linear%20Algebra/Assets/pairplot.png)
 
