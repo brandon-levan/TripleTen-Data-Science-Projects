@@ -2,13 +2,13 @@
 # [Sprint 12 - Numerical Methods](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/main/Sprint%2012%20-%20Numerical%20Methods/Sprint_12_Project.ipynb)
 
 ## Skills Learned in Sprint 
-- Perform common matrix and vector operations using the NumPy library
-- Create Python classes for machine learning models
-- Develop a deeper understanding of linear regression models
+- Write a gradient descent algorithm.
+- Understand how linear regression models and neural networks are trained using gradient descent.
+- Master the gradient boosting technique.
 
 ## Libraries Used
- - `pandas` `numpy` `seaborn` `sklearn` `math`
- - *From sklearn* - `train_test_split` `NearestNeighbors` `KNeighborsClassifier` `linear_model` `metrics preprocessing`
+ - `pandas` `numpy` `sklearn` `LGBMRegressor` `CatBoostRegressor` `XGBRegressor`
+ - *From sklearn* - `train_test_split` `StandardScaler` `mean_squared_error` `LinearRegression` `RandomForestRegressor`, `GridSearchCV`
 
 ## Problem Statement & Task
 The Sure Tomorrow insurance company wants to solve several tasks with the help of Machine Learning and you are asked to evaluate that possibility.
@@ -26,8 +26,25 @@ The Sure Tomorrow insurance company wants to solve several tasks with the help o
    
 ## Data Description
 
-- `Features`: insured person's gender, age, salary, and number of family members
-- `Target`: number of insurance benefits received by an insured person over the last five years
+- Features
+- `DateCrawled` — date profile was downloaded from the database
+`VehicleType — vehicle body type
+`RegistrationYear` — vehicle registration year
+`Gearbox` — gearbox type
+`Power` — power (hp)
+`Model` — vehicle model
+`Mileage` — mileage (measured in km due to dataset's regional specifics)
+`RegistrationMonth` — vehicle registration month
+`FuelType` — fuel type
+`Brand` — vehicle brand
+`NotRepaired` — vehicle repaired or not
+`DateCreated` — date of profile creation
+`NumberOfPictures` — number of vehicle pictures
+`PostalCode` — postal code of profile owner (user)
+`LastSeen` — date of the last activity of the user
+
+- Target
+   - `Price` — price (Euro)
   
 ## Results & Findings
 
