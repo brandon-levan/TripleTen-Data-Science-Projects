@@ -29,14 +29,8 @@ The Sure Tomorrow insurance company wants to solve several tasks with the help o
    
 ## Data Description
 
-*Every observation in the dataset contains monthly behavior information about one user. The information given is as follows:*
-
-**Features**
-- `id` — unique oil well identifier
-- `f0, f1, f2` — three features of points (their specific meaning is unimportant, but the features themselves are significant)
-
-**Target**
-- `product` — volume of reserves in the oil well (thousand barrels)
+- `Features`: insured person's gender, age, salary, and number of family members.
+- `Target`: number of insurance benefits received by an insured person over the last five years.
   
 ## Results & Findings
 
