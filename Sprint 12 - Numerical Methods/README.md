@@ -2,9 +2,9 @@
 # [Sprint 12 - Numerical Methods](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/main/Sprint%2012%20-%20Numerical%20Methods/Sprint_12_Project.ipynb)
 
 ## Skills Learned in Sprint 
-- Write a gradient descent algorithm.
-- Understand how linear regression models and neural networks are trained using gradient descent.
-- Master the gradient boosting technique.
+- Write a gradient descent algorithm
+- Understand how linear regression models and neural networks are trained using gradient descent
+- Master the gradient boosting technique
 
 ## Libraries Used
  - `pandas` `numpy` `sklearn` `LGBMRegressor` `CatBoostRegressor` `XGBRegressor`
