@@ -56,7 +56,3 @@ Given the results generated in section 8, **the Rusty Bargain should implement a
 | LinearRegression |                  3168.3                  | 19.3 seconds      |
 | RandomForrest    |                  2007.0                  | 1 mins 26 seconds |
 | **CatBoost**         |                  1970.08                 | 4.24 s            |
-
-## Examples of Visualizations Used in Project
-![alt text]()
-
