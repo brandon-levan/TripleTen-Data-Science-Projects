@@ -8,7 +8,7 @@
 
 ## Libraries Used
  - `pandas` `numpy` `sklearn` `LGBMRegressor` `CatBoostRegressor` `XGBRegressor`
- - *From sklearn* - `train_test_split` `StandardScaler` `mean_squared_error` `LinearRegression` `RandomForestRegressor`, `GridSearchCV`
+ - *From sklearn* - `train_test_split` `StandardScaler` `mean_squared_error` `LinearRegression` `RandomForestRegressor` `GridSearchCV`
 
 ## Problem Statement & Task
 The Sure Tomorrow insurance company wants to solve several tasks with the help of Machine Learning and you are asked to evaluate that possibility.
