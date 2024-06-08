@@ -43,12 +43,12 @@ The Sure Tomorrow insurance company wants to solve several tasks with the help o
 Conclusions
 I've summarized the conclusions from each task below -
 
-**Task 1 - Similar Customers**
-- Scaling the data does have an affect on the KNN algorithm in terms of the distance the algorithm outputs.
-- There is a difference in the results for the Manhattan distance metric when using scaled and unscaled data.<br>
-**Task 2 - Is Customer Likely to Receive Insurance Benefit?**
-- Increasing the k value doesn't always have a positive affect on improving the F1 score.
-- Using scaled data in a kNN model produces better results than with unscaled data.
+- **Task 1 - Similar Customers**
+   - Scaling the data does have an affect on the KNN algorithm in terms of the distance the algorithm outputs.
+   - There is a difference in the results for the Manhattan distance metric when using scaled and unscaled data.<br>
+- **Task 2 - Is Customer Likely to Receive Insurance Benefit?**
+   - Increasing the k value doesn't always have a positive affect on improving the F1 score.
+   - Using scaled data in a kNN model produces better results than with unscaled data.
 **Task 3 - Regression (with Linear Regression)**
 - RMSE & R^2 values are the same when the linear regression model is run on scaled and unscaled data
 **Task 4 - Obfuscating Data**
