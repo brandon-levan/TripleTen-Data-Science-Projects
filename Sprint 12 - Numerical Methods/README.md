@@ -26,7 +26,7 @@ The Sure Tomorrow insurance company wants to solve several tasks with the help o
    
 ## Data Description
 
-- Features
+- **Features**
   - `DateCrawled` — date profile was downloaded from the database
   - `VehicleType — vehicle body type
   - `RegistrationYear` — vehicle registration year
@@ -43,7 +43,7 @@ The Sure Tomorrow insurance company wants to solve several tasks with the help o
   - `PostalCode` — postal code of profile owner (user)
   - `LastSeen` — date of the last activity of the user
 
-- Target
+- **Target**
    - `Price` — price (Euro)
   
 ## Results & Findings
