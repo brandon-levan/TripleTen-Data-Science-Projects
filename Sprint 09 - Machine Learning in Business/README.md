@@ -45,7 +45,7 @@ I've summarized the conclusions from each task below -
 
 **Task 1 - Similar Customers**
 - Scaling the data does have an affect on the KNN algorithm in terms of the distance the algorithm outputs.
-- There is a difference in the results for the Manhattan distance metric when using scaled and unscaled data.
+- There is a difference in the results for the Manhattan distance metric when using scaled and unscaled data.<br>
 **Task 2 - Is Customer Likely to Receive Insurance Benefit?**
 - Increasing the k value doesn't always have a positive affect on improving the F1 score.
 - Using scaled data in a kNN model produces better results than with unscaled data.
