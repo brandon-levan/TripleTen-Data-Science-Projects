@@ -12,11 +12,11 @@
 
 ## Problem Statement & Task
 
-Rusty Bargain used car sales service is developing an app to attract new customers. In that app, you can quickly find out the market value of your car. You have access to historical data: technical specifications, trim versions, and prices. The task is to build the model to determine the value.
+Rusty Bargain is a used car sales service is developing an app to attract new customers. In that app, you can quickly find out the market value of your car. You have access to historical data: technical specifications, trim versions, and prices. The task is to build the model to determine the value.
 
-Rusty Bargain is interested in:
-- the quality of the prediction;
-- the speed of the prediction;
+Rusty Bargain is interested in - 
+- the quality of the prediction
+- the speed of the prediction
 - the time required for training
  
 **The goal of this project** is to train different models with various hyperparameters. The goal is to compare gradient boosting methods with random forest, decision tree, and linear regression.
@@ -49,7 +49,7 @@ Rusty Bargain is interested in:
    - `Price` — price (Euro)
   
 ## Results & Findings
-Given the results generated in section 8, **the Rusty Bargain should implement make its predictions using Catboost.** It is extremely fast in making predictions and it produced the lowest RMSE (compared to the RandomForrestRegressor).
+Given the results generated in section 8, **the Rusty Bargain should implement a Catboost model to make its predictions.** It is extremely fast in making predictions and it produced the lowest RMSE (compared to the RandomForrestRegressor).
 
 | Model            | RMSE When Predicting Targets on Test Set | Prediction Speed  |
 |------------------|------------------------------------------|-------------------|
