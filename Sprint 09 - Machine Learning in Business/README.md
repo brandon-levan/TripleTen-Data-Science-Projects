@@ -6,7 +6,9 @@
 - Understand what data labeling is and who the assessors are.
 
 ## Libraries Used
- - `pandas` `numpy` `matplotlib` `sklearn` (`train_test_split` `LinearRegression` `mean_squared_error`)
+ - `pandas` `numpy` `matplotlib` `sklearn`
+ - *From scikit-learn*
+    - `train_test_split` `LinearRegression` `mean_squared_error`
  
 ## Problem Statement & Task
 **Project Objective** - I work for the OilyGiant mining company, and my task is to find the best place for a new well.
