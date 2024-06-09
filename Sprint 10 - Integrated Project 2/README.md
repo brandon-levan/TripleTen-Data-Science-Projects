@@ -22,10 +22,7 @@ In order to start working on this process, I needed to familiarize myself with t
 
 ![alt text](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/main/Sprint%2010%20-%20Integrated%20Project%202/Assets/gold_process.jpeg)
 
-
-![alt text]()
-![alt text]()
-![alt text]()
+For this project, we need to simulate the process of recovering gold from gold ore. The following formula can be used to simulate the recovery process:
 
 ![alt text](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/main/Sprint%2010%20-%20Integrated%20Project%202/Assets/recovery.jpeg)
 
@@ -37,6 +34,12 @@ In order to start working on this process, I needed to familiarize myself with t
  - This is represented in the dataset as `rougher.input.feed_au` 
 - **T —** share of gold in the rougher tails right after flotation (for finding the rougher concentrate recovery)/after purification (for finding the final concentrate recovery)
  - This is represented in the dataset as `rougher.output.tail_au`
+
+
+![alt text]()
+![alt text]()
+![alt text]()
+
 
 To predict the coefficient, we need to find the share of gold in the concentrate and the tails. 
 
