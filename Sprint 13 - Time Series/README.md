@@ -37,4 +37,5 @@ Given the results generated in section 7, **I would recommend the Sweet Lift Tax
 
 
 ## Examples of Visualizations Used in Project
-![alt text]()
+![alt text](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/main/Sprint%2013%20-%20Time%20Series/Assets/seasonal_decompose.png)
+![alt text](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/main/Sprint%2013%20-%20Time%20Series/Assets/randomforrest_predictions.png)
