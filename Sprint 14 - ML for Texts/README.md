@@ -38,15 +38,17 @@ Here's the description of the selected fields:
 *There are other fields in the dataset. Feel free to explore them if you'd like.*
   
 ## Results & Findings
-Given the results generated in section 7, **I would recommend the Sweet Lift Taxi Company implement a XGBoost model if it wants to produce results with the least amount of error (lowest RMSE). However, if the Sweet Lift Taxi Company is concerned with the speed of predictions, the CatBoost model produced a similiar RMSE (within 2% difference) but makes the prediction in half the time.**
+The Film Junky Union, a new edgy community for classic movie enthusiasts, is developing a system for filtering and categorizing movie reviews. **The goal is to train a model to automatically detect negative reviews with an F1 score of at least 0.85.** We see that when using different models and methdologies, Models 1,2, and 3 all produce F1 scores higher than 0.85; however, **models using LinearRegression produce the best F1 score.** I would avoid using spaCy going forward because text preprocessing took 16 mins and produced the same results as using NLTK which took significantly less time to run (11 seconds).
 
-| Model    | RMSE When Predicting Targets on Test Set | Prediction Speed |
-|----------|------------------------------------------|------------------|
-| CatBoost | 37.96                                    | 111 ms           |
-| XGBoost  | 37.43                                    | 224 ms           |
+| Model/Methodology                          | Test Accuracy | Test F1 | Test APS | Test ROC AUC |
+|--------------------------------------------|---------------|---------|----------|--------------|
+| Model 0 - DummyClassifier                  | 0.50          | 0.50    | 0.50     | 0.50         |
+| Model 1 - NLTK, TF-IDF and LR              | 0.88          | 0.88    | 0.95     | 0.95         |
+| Model 2 - spaCy, TF-IDF and LR             | 0.88          | 0.88    | 0.95     | 0.95         |
+| Model 3 - spaCy, TF-IDF and LGBMClassifier | 0.86          | 0.86    | 0.93     | 0.94         |
 
 
 ## Examples of Visualizations Used in Project
-![alt text](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/main/Sprint%2013%20-%20Time%20Series/Assets/seasonal_decompose.png)
-![alt text](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/main/Sprint%2013%20-%20Time%20Series/Assets/randomforrest_predictions.png)
-
+![alt text](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/main/Sprint%2014%20-%20ML%20for%20Texts/Assets/movies_over_years.png)
+![alt text](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/main/Sprint%2014%20-%20ML%20for%20Texts/Assets/distribution_of_ratings.png)
+![alt text](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/main/Sprint%2014%20-%20ML%20for%20Texts/Assets/scores.png)
