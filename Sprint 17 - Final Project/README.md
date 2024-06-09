@@ -44,9 +44,9 @@ Four files were provided to me by the telecom operator interconnect to help me f
 - `end_date` - our target feature, No == customer remains with the service
 - `contract_type` - plan type
 - `paperless_billing` - way of receiving billing statements
-`payment_method` - method of payment
-`monthly_charges` -  monthly charges for the services provided
-`total_charges` - total charges for the services provided
+`payment_method` - method of payment <br>
+`monthly_charges` -  monthly charges for the services provided <br>
+`total_charges` - total charges for the services provided <br>
 
 - personal.csv: the customer's personal data
 'customer_id': unique ID assigned to each customer
