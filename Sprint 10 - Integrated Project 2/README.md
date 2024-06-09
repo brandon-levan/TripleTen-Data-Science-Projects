@@ -18,6 +18,14 @@
 I will explore, prepare, and train a model on data provided by Zafra to optimize these parameters.  
 
 ## Project Context 
+In order to start working on this process, I needed to familiarize myself with the gold extraction process. Mined ore undergoes primary processing to get the ore mixture or rougher feed, which is the raw material for flotation (also known as the rougher process). After flotation, the material is sent to two-stage purification. After the floatation and the two-stage purification steps, you are left with the final gold concentrate. The process of taking a gold ore mixture and extracting gold concentrate will be refferred to as recovery or the recovery process. 
+
+![alt text](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/main/Sprint%2010%20-%20Integrated%20Project%202/Assets/gold_process.jpeg)
+
+
+![alt text]()
+![alt text]()
+![alt text]()
 
 ![alt text](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/main/Sprint%2010%20-%20Integrated%20Project%202/Assets/recovery.jpeg)
 
