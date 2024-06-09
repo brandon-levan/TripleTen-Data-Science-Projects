@@ -5,7 +5,8 @@
 
 ## Libraries Used
  - `pandas` `numpy` `matplotlib` `sklearn`
- - *From scikit-learn* - `train_test_split` `LinearRegression` `DecisionTreeRegressor` `RandomForestRegressor` `mean_absolute_error` `DummyRegressor` `make_scorer` `cross_val_score`
+ - *From scikit-learn*
+    - `train_test_split` `LinearRegression` `DecisionTreeRegressor` `RandomForestRegressor` `mean_absolute_error` `DummyRegressor` `make_scorer` `cross_val_score`
  
 ## Problem Statement & Task
 **Project Objective -** In this project, I will prepare a prototype of a machine learning model for Zyfra. The company develops efficiency solutions for the heavy metals industry. The model I create should predict the amount of gold recovered from gold ore. I have the data on extraction and purification. The model will optimize for the production of gold concentrate and will aim to eliminate unprofitable parameters.
