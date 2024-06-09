@@ -6,7 +6,7 @@
 - Build a classification model for texts
 
 ## Libraries Used
- - `pandas` `numpy` `matplotlib` `seaborn`, `tqdm.auto`
+ - `pandas` `numpy` `matplotlib` `seaborn`, `sklearn` `nltk` `spacy`
 
 ## Problem Statement & Task
 
