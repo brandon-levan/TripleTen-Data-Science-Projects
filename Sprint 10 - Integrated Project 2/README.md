@@ -1,11 +1,11 @@
 # [Sprint 10 - Integrated Project 2](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/main/Sprint%2010%20-%20Integrated%20Project%202/Sprint_10_Project.ipynb)
 
 ## Skills Learned in Sprint 
-- Supervised learning - develop models and evaluate their quality for both regression and classification tasks
+- Develop models and evaluate their quality when solving supervised learning problems
 
 ## Libraries Used
  - `pandas` `numpy` `matplotlib` `sklearn`
- - *From scikit-learn* - `train_test_split` `LinearRegression` `DecisionTreeRegressor` `RandomForestRegressor` `mean_squared_error` `DummyRegressor`,`make_scorer`,`cross_val_score`
+ - *From scikit-learn* - `train_test_split` `LinearRegression` `DecisionTreeRegressor` `RandomForestRegressor` `mean_squared_error` `DummyRegressor` `make_scorer` `cross_val_score`
  
 ## Problem Statement & Task
 **Project Objective** - I work for the OilyGiant mining company, and my task is to find the best place for a new well.
