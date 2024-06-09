@@ -6,8 +6,9 @@
 - To learn how to examine models and pick the best one.
 
 ## Libraries Used
- - `pandas` `numpy` `matplotlib` `sklearn` 
- - `train_test_split` `DecisionTreeClassifier` `RandomForestClassifier` `LogisticRegression` `accuracy_score` 
+ - `pandas` `numpy` `matplotlib` `sklearn`
+ -  *From scikit-learn*
+    - `train_test_split` `DecisionTreeClassifier` `RandomForestClassifier` `LogisticRegression` `accuracy_score` 
  
 ## Problem Statement & Task
 **Problem Summary** - Mobile carrier Megaline has found out that many of their subscribers use legacy plans. They want to develop a model that would analyze subscribers' behavior and recommend one of Megaline's newer plans: Smart or Ultra. Because I have access to behavioral data about subscribers who have already switched to the new plans, I will develop a classification model that will pick the right plan for subscribers on legacy plans.
