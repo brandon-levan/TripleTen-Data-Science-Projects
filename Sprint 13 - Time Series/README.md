@@ -7,9 +7,11 @@
 - Use obtained features to train a regression model
 
 ## Libraries Used
- - `pandas` `numpy` `matplotlib` `sklearn`, `statsmodels.tsa` `LGBMRegressor` `CatBoostRegressor` `XGBRegressor`
- - *From sklearn* - `train_test_split` `StandardScaler` `mean_squared_error` `LinearRegression` `RandomForestRegressor` `GridSearchCV`
- - *From statsmodels.tsa* - `seasonal_decompose` `adfuller` `AutoReg` `ar_select_order` `ARIMA` `arma_order_select_ic`
+- `pandas` `numpy` `matplotlib` `sklearn`, `statsmodels.tsa` `LGBMRegressor` `CatBoostRegressor` `XGBRegressor`
+- *From sklearn*
+   - `train_test_split` `StandardScaler` `mean_squared_error` `LinearRegression` `RandomForestRegressor` `GridSearchCV`
+- *From statsmodels.tsa*
+   - `seasonal_decompose` `adfuller` `AutoReg` `ar_select_order` `ARIMA` `arma_order_select_ic`
 
 ## Problem Statement & Task
 
