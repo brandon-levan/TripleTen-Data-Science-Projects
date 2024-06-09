@@ -8,7 +8,8 @@
 
 ## Libraries Used
  - `pandas` `numpy` `sklearn` `LGBMRegressor` `CatBoostRegressor` `XGBRegressor`
- - *From sklearn* - `train_test_split` `StandardScaler` `mean_squared_error` `LinearRegression` `RandomForestRegressor` `GridSearchCV`
+ - *From sklearn*
+    - `train_test_split` `StandardScaler` `mean_squared_error` `LinearRegression` `RandomForestRegressor` `GridSearchCV`
 
 ## Problem Statement & Task
 
