@@ -25,14 +25,14 @@ The clients can choose either a monthly payment or sign a 1- or 2-year contract.
 
 ## Steps to Complete Project
 
-1. **Exploratory Data Analysis**
- - In this notebook, I cleaned, combined, and analyzed the datasets Interconnect provided in order to get a better understand and familiarity with users that churn. 
-2. **Prepare Data For Model Training**
- - Fields need to be scaled and encoded before training the model. Additional, the data needs to be split into train, validation, and test data sets for model training and evaluation. 
-3. **Tune & Evaluate Classification Models on Training Data**
- - Perform hyperparameter tuning for a variety of classifcation models. Evaluate accuracy and AUC-ROC scores.Provide findings.
-4. **Choose Model & Evaluate Performance on Test Data**
- - Based on the accuracy and AUC-ROC scores of model training. Choose the best model and evaluate accuracy and AUC-ROC scores on test data. Provide findings and conclusions. 
+- Step 1 - **Exploratory Data Analysis**
+   - In this notebook, I cleaned, combined, and analyzed the datasets Interconnect provided in order to get a better understand and familiarity with users that churn. 
+- Step 2 - **Prepare Data For Model Training**
+   - Fields need to be scaled and encoded before training the model. Additional, the data needs to be split into train, validation, and test data sets for model training and evaluation. 
+- Step 3 -  **Tune & Evaluate Classification Models on Training Data**
+   - Perform hyperparameter tuning for a variety of classifcation models. Evaluate accuracy and AUC-ROC scores.Provide findings.
+- Step 4 - **Choose Model & Evaluate Performance on Test Data**
+   - Based on the accuracy and AUC-ROC scores of model training. Choose the best model and evaluate accuracy and AUC-ROC scores on test data. Provide findings and conclusions. 
     
 ## Data Description
 
