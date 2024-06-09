@@ -7,7 +7,8 @@
 
 ## Libraries Used
  - `pandas` `numpy` `seaborn` `sklearn` `math`
- - *From sklearn* - `train_test_split` `NearestNeighbors` `KNeighborsClassifier` `linear_model` `metrics preprocessing`
+ - *From sklearn*
+    - `train_test_split` `NearestNeighbors` `KNeighborsClassifier` `linear_model` `metrics preprocessing`
 
 ## Problem Statement & Task
 The Sure Tomorrow insurance company wants to solve several tasks with the help of Machine Learning and you are asked to evaluate that possibility.
