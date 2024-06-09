@@ -35,13 +35,16 @@ For this project, we need to simulate the process of recovering gold from gold o
 - **T —** share of gold in the rougher tails right after flotation (for finding the rougher concentrate recovery)/after purification (for finding the final concentrate recovery)
  - This is represented in the dataset as `rougher.output.tail_au`
 
+In this problem, we need a way to assess how well the model works - in other words - how good are the predictions the model outputs based on the training data. To do this, will need a new metric. It is called sMAPE, symmetric Mean Absolute Percentage Error. sMAPE will be the evaluation metric used in this project and it is calculated using the equation below
 
-![alt text]()
-![alt text]()
-![alt text]()
+![alt text](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/main/Sprint%2010%20-%20Integrated%20Project%202/Assets/smape.jpeg)
 
+As I noted earlier, we want to create a model to maximize the amount of gold concentration output throughout the gold extraction process-**
+- **rougher concentrate recovery** (*rougher.output.recovery*)
+- **final concentrate recovery** (*final.output.recovery*) 
+Therefore, we need to predict the rougher concentrate recovery `rougher.output.recovery` and final concentrate recovery `final.output.recovery`. Using sMAPE and these predictions, we will use the **Final sMAPE** to assess how well each model performs in maximizing gold output by looking at which model produces the lowests final sMAPE
 
-To predict the coefficient, we need to find the share of gold in the concentrate and the tails. 
+![alt text](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/main/Sprint%2010%20-%20Integrated%20Project%202/Assets/final_smape.jpeg)
 
 ## Steps to Complete Project
 
