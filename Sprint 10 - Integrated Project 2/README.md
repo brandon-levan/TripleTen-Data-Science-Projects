@@ -8,7 +8,13 @@
  - *From scikit-learn* - `train_test_split` `LinearRegression` `DecisionTreeRegressor` `RandomForestRegressor` `mean_squared_error` `DummyRegressor` `make_scorer` `cross_val_score`
  
 ## Problem Statement & Task
-**Project Objective** - I work for the OilyGiant mining company, and my task is to find the best place for a new well.
+**Project Objective -** In this project, I will prepare a prototype of a machine learning model for Zyfra. The company develops efficiency solutions for the heavy metals industry. The model I create should predict the amount of gold recovered from gold ore. I have the data on extraction and purification. The model will optimize for the production of gold concentrate and will aim to eliminate unprofitable parameters.
+
+**For this project, we want to create a model to maximize the amount of gold concentration output throughout the gold extraction process-**
+- **rougher concentrate recovery** (*rougher.output.recovery*)
+- **final concentrate recovery** (*final.output.recovery*) 
+
+I will explore, prepare, and train a model on data provided by Zafra to optimize these parameters.  
 
 ![alt text](https://github.com/brandon-levan/TripleTen-Data-Science-Projects/blob/main/Sprint%2010%20-%20Integrated%20Project%202/Assets/recovery.jpeg)
 
