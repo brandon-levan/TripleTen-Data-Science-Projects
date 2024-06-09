@@ -6,10 +6,11 @@
 - Understand what data labeling is and who the assessors are.
 
 ## Libraries Used
- - `pandas` `numpy` `matplotlib` `sklearn`
+ - `pandas` `numpy` `matplotlib` `sklearn` `lightgbm` `catboost` `xgboost`
  - *From scikit-learn*
-    - `train_test_split` `LinearRegression` `mean_squared_error`
- 
+    - `train_test_split` `StandardScaler` `GridSearchCV` `LogisticRegression` `mean_squared_error` `DummyClassifier` `RandomForestClassifier`
+    -  `accuracy_score` `accuracy_score` `recall_score` `precision_score` `f1_score` `roc_curve` `roc_auc_score` `classification_report`
+
 ## Problem Statement & Task
 **Project Objective** - I work for the OilyGiant mining company, and my task is to find the best place for a new well.
 
