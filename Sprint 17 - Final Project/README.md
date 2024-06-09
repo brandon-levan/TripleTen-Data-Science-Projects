@@ -55,17 +55,17 @@ Four files were provided to me by the telecom operator interconnect to help me f
 - `partner` - customer husband/wife or partner
 - `dependents` - customer dependents
 
-- internet.csv: information about internet services
-'customer_id': unique ID assigned to each customer
-'internet_service': type of internet service
-'online_security': additional internet service
-'online_backup': additional internet service
-'device_protection': additional internet service
-'tech_support': additional internet service
+`internet.csv` contains information about Interconnect's internet offerings
+- `customer_id` - unique ID assigned to each customer
+- `internet_service` - type of internet service
+- `online_security` - additional internet service
+- `online_backup` - additional internet service
+- `device_protection` - additional internet service
+- `tech_support` - additional internet service
 
-- phone.csv: information about telephone services
-'customer_id': unique ID assigned to each customer
-'multiple_lines': quantity of cell phone lines
+`phone.csv` contains information about Interconnect's phone offerings
+- `customer_id` - unique ID assigned to each customer
+- `multiple_lines` - quantity of cell phone lines
 
 Each file contains the primary key customer_id which is leveraged in order to do the data merging. Our primary metric is AUC-ROC. 'end_date` in the contract.csv was used as the target for predicting churn. 
 
